@@ -216,7 +216,7 @@ font-size: 70px;
   }
 
   .sbh1r {
-    margin-left: 130px;
+    margin-left: 165px;
   }
 
   .sbtext {
@@ -436,9 +436,10 @@ ion-icon:hover {
   padding-top: 50px;
 }
 
-@media screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
     .column {
       width: 100%;
+      height: auto;
       padding-bottom: 100px;
     }
     .row {
@@ -451,10 +452,10 @@ ion-icon:hover {
         font-size: 14px;
           }
           .right-image {
-            margin-left: 45px !important;
+            margin-left: 40px !important;
             padding-top: 100px;
-            width: 400px;
-            height: 550px;
+            max-width: 300px;
+            max-height: 450px;
             display: flex;
             justify-content: center;
             padding-left: 0;
@@ -466,7 +467,8 @@ ion-icon:hover {
             padding-right: 80px;
              }
              .sbh1 {
-                font-size: 25px;
+                font-size: 22px;
+                text-align: center;
               }
               .sbtext {
                 padding-top: 50px;
@@ -487,6 +489,21 @@ ion-icon:hover {
               ul {
                 margin-left: -30px;
             }
+            input {
+              padding: 10px;
+              background-color: lightcyan;
+              border-radius: 8px;
+              border: 2px solid lightslategray;
+              font-size: 10px;
+            }
+            .card {
+              width: 100%;
+              height: 380px;
+            }
+            .card img { 
+              width: 100%;
+              height: auto;
+            }
             .btnwav {
                 margin-top: 12px;
                 margin-left: 0px;
@@ -502,8 +519,9 @@ ion-icon:hover {
             }
             .heading {
               align-items: center;
-              width: 350px;
-              margin-left: 70px !important ;
+              width: 100%;
+              height: auto;
+              margin-left: 15px !important ;
             }
             .heading h1 {
               font-size: 25px;
@@ -518,21 +536,36 @@ ion-icon:hover {
             }
             .column1 {
               width: 100%;
+              height: auto;
               display: block;
               margin-bottom: 20px;
             }
             .left-sectionfb {
-              padding-left: 45px !important;
+              padding-left: 125px !important;
+              max-width: 250px;
+              max-height: 500px;
+            }
+            .left-sectionfb img {
+              width: 100%;
+              height: auto;
             }
             .right-sectionfb {
               width: 100%;
+              height: auto;
             text-align: center;
             padding-left: 0;
             font-size: 20px;
             margin-bottom: 80px;
             }
+            .p1fb {
+              width: 100%;
+              height: auto;
+              font-size: 37px;
+              color: black;
+            }
             .column2 {
               width: 100%;
+              height: auto;
               display: block;
               margin-bottom: 20px;
               padding-bottom: 30px;
@@ -591,7 +624,7 @@ ion-icon:hover {
             }
   }
 
-   @media screen and (max-width: 1200px) {
+   @media only screen and (max-width: 1200px) {
     .column {
       width: 100%;
       padding-bottom: 100px;
@@ -746,7 +779,7 @@ ion-icon:hover {
             }
           }
 
-  @media screen and (max-width: 1680px) {
+  @media only screen and (max-width: 1680px) {
     .card p {
       max-height: 50px;
     }
